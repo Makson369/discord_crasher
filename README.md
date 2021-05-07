@@ -6,7 +6,7 @@ sudo apt install python3 python3-pip
 pip3 install discord
 pip3 install colorama
 pip3 install requests
-git clone https://github.com/GlUTEN-BASH/discord_crasher/
+git clone https://github.com/Makson369/discord_crasher
 cd discord_crasher
 ```
 # Запуск 
